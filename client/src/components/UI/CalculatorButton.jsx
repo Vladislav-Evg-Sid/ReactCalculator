@@ -4,6 +4,7 @@ export const CalculatorButton = (props) => {
     return (
         <Button
             variant="outlined"
+            onClick={props.onClick}
             sx={{
                 width: 64,
                 height: 64,
